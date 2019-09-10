@@ -1,10 +1,10 @@
 import unittest
-import solution
+import solution_2
 
 
 class TestCase(unittest.TestCase):
     def setUp(self):
-        self.solution = solution.Solution()
+        self.solution = solution_2.Solution()
 
     def tearDown(self):
         pass

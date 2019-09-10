@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite name="nosetests" tests="1" errors="0" failures="1" skip="0"><testcase classname="test_solution.test" name="test_new2" time="27.762"><failure type="builtins.AssertionError" message="&#10;-------------------- &gt;&gt; begin captured stdout &lt;&lt; ---------------------&#10;4913370 0.572236&#10;&#10;--------------------- &gt;&gt; end captured stdout &lt;&lt; ----------------------"><![CDATA[  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 59, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py", line 615, in run
+    testMethod()
+  File "/Users/cx/Work/python/leet/venv/lib/python3.7/site-packages/nose/case.py", line 198, in runTest
+    self.test(*self.arg)
+  File "/Users/cx/Work/python/leet/11_container_with_most_water/test_solution.py", line 30, in test_new2
+    assert(duration<0)
+
+-------------------- >> begin captured stdout << ---------------------
+4913370 0.572236
+
+--------------------- >> end captured stdout << ----------------------]]></failure><system-out><![CDATA[4913370 0.572236
+]]></system-out></testcase></testsuite>
