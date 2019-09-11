@@ -2,9 +2,6 @@
 .idea
 .vscode
 *.pyc
-<<<<<<< HEAD
 .noseids
 nosetests*
-=======
 venv
->>>>>>> 8c33cb9c01b1561edf41f975e862ecea6bd0e85e
