@@ -13,21 +13,3 @@ class test(object):
     def test_solution(self):
         assert(self.s.maxArea([1, 8, 6, 2, 5, 4, 8, 3, 7]) == 49)
 
-    def test_solution3(self):
-        assert(self.s.maxArea([1, 2, 4, 3]) == 4)
-
-    def test_solution2(self):
-        print(self.s1.maxArea(a))
-
-    def test_new(self):
-        assert(self.s.maxArea_new([1, 8, 6, 2, 5, 4, 8, 3, 7]) == 49)
-
-    def test_new2(self):
-        start = time.clock()
-        s = self.s.maxArea_new(a)
-        duration = time.clock() - start
-        print(s, duration)
-        assert(duration<1)
-
-    def test_new3(self):
-        assert(self.s.maxArea_new([2, 1]) == 1)
